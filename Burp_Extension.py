@@ -4,7 +4,7 @@
 from burp import IBurpExtender, ITab
 from javax import swing # GUI Toolkit for Java
 from java.awt import BorderLayout
-import sys, time, socket, threading, sys
+import sys, time, socket, threading
 
 # Making the Burp Extender calss
 class BurpExtender(IBurpExtender, ITab):
